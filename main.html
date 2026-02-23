@@ -47,7 +47,7 @@
 
       <div class="col-md-2">
         <label for="grad-year-select" class="form-label">Graduation Year</label>
-        <select id="grad-year-select" class="form-select">
+        <select id="grad-year-select" class="form-select" required>
           <option selected>Choose...</option>
           <option>2020</option>
           <option>2021</option>
@@ -61,12 +61,12 @@
 
       <div class="col-md-2">
         <label for="roll-no-input" class="form-label">Roll No.</label>
-        <input type="text" class="form-control" id="roll-no-input" />
+        <input type="text" class="form-control" id="roll-no-input" required/>
         <div class="invalid-feedback">Please provide a valid Roll no.</div>
       </div>
 
       <div class="mb-3 form-check">
-        <input type="radio" class="form-check-input" id="conditions-checkbox" />
+        <input type="checkbox" class="form-check-input" id="conditions-checkbox" required/>
         <label class="form-check-label" for="conditions-checkbox"
           >Agree to terms and conditions</label
         >
